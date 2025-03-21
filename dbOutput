@@ -1,0 +1,142 @@
+zuhairmunawar@Zuhairs-Air ~ % mongosh          
+Current Mongosh Log ID:	67dcdaf5805c9ebe0ef0ba21
+Connecting to:		mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.4.2
+Using MongoDB:		8.0.6
+Using Mongosh:		2.4.2
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2025-03-19T23:16:24.743-04:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+test> use books_db
+switched to db books_db
+books_db> show collections
+books
+books_db> db.books.find().pretty()
+[
+  {
+    _id: '712ca12caf4cc95d75647013d2c9bd408b544e8133b7094eb601c4329151d338',
+    price: '£51.77',
+    title: 'A Light in the Attic',
+    url: 'catalogue/a-light-in-the-attic_1000/index.html'
+  },
+  {
+    _id: '34d86d9fd3eed98a1b6bdf4289b0768a9f1aa3cf56e9dc1816b8587176faf3c3',
+    price: '£53.74',
+    title: 'Tipping the Velvet',
+    url: 'catalogue/tipping-the-velvet_999/index.html'
+  },
+  {
+    _id: 'edb1cd1553935a109ae3507874742940579fa2dcf4f1e8450995c3124a6ca445',
+    price: '£50.10',
+    title: 'Soumission',
+    url: 'catalogue/soumission_998/index.html'
+  },
+  {
+    _id: '350712ddc9ffa4f9d9d517ed0b15f308a914b18af853b06a24277590eed4a85b',
+    price: '£47.82',
+    title: 'Sharp Objects',
+    url: 'catalogue/sharp-objects_997/index.html'
+  },
+  {
+    _id: '6b219c9ea46479b6d2abc1a15bef2df80352bb17f12ca179dfb267fc6e8b8a32',
+    price: '£54.23',
+    title: 'Sapiens: A Brief History of Humankind',
+    url: 'catalogue/sapiens-a-brief-history-of-humankind_996/index.html'
+  },
+  {
+    _id: 'd2ca0023ac6cfb1a2ec15b0ac7edc2ed529ab6c4a32b5ff98aa2a43c224a44d2',
+    price: '£22.65',
+    title: 'The Requiem Red',
+    url: 'catalogue/the-requiem-red_995/index.html'
+  },
+  {
+    _id: '5e3a50e5e4d64a45348e23311fa55c82aea0813ccaaa3a9cc70fc1ba2e4a3bda',
+    price: '£33.34',
+    title: 'The Dirty Little Secrets of Getting Your Dream Job',
+    url: 'catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html'
+  },
+  {
+    _id: 'e556c2f79cbca35101a36e95210fd29cfc0657dfd30346bd57c0448f450fe5c5',
+    price: '£17.93',
+    title: 'The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull',
+    url: 'catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html'
+  },
+  {
+    _id: '8da46169169d23ff07de54ef3605eed7d0fe6583cc7705c115661e333da2d735',
+    price: '£22.60',
+    title: 'The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics',
+    url: 'catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html'
+  },
+  {
+    _id: '7a891594aa8bcf9a2bbb9063dcea291732716a854d6af9070a7fd549032f5f3b',
+    price: '£52.15',
+    title: 'The Black Maria',
+    url: 'catalogue/the-black-maria_991/index.html'
+  },
+  {
+    _id: '756b0a71bf782c6604c0b1c21e5fdc856bdc05d78d51651fe50207b6abb62a69',
+    price: '£13.99',
+    title: 'Starving Hearts (Triangular Trade Trilogy, #1)',
+    url: 'catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html'
+  },
+  {
+    _id: '8bce98f66277f3aa00551688d5eeb638a82c786c645e9e97377425019e974d4d',
+    price: '£20.66',
+    title: "Shakespeare's Sonnets",
+    url: 'catalogue/shakespeares-sonnets_989/index.html'
+  },
+  {
+    _id: '605dfc6cdbd8c5f8e9ba7a362d891bad960231906d4e3f931769b1049fc8800c',
+    price: '£17.46',
+    title: 'Set Me Free',
+    url: 'catalogue/set-me-free_988/index.html'
+  },
+  {
+    _id: '0a7e1b066d67f8a5cd5ef5d52867d0b74790936f4ba053560c49af7fdc9c5847',
+    price: '£52.29',
+    title: "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+    url: 'catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html'
+  },
+  {
+    _id: '7bf3ebdf9033eb367f7f03c9f02020b45d12f33431fea594baba96ff72a0cc17',
+    price: '£35.02',
+    title: 'Rip it Up and Start Again',
+    url: 'catalogue/rip-it-up-and-start-again_986/index.html'
+  },
+  {
+    _id: 'fed69dc968848f32ee6b634fdabd24222adc4c89f1c5b45cf983b1f38a9698e5',
+    price: '£57.25',
+    title: 'Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991',
+    url: 'catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html'
+  },
+  {
+    _id: 'ae3ddb02270a2837ef506cc75a160297576f6b45c93c63f89485a481916d19e6',
+    price: '£23.88',
+    title: 'Olio',
+    url: 'catalogue/olio_984/index.html'
+  },
+  {
+    _id: '6d41494d3e48554090fec281fc444e622e630c5cd180ce655d6ef2cfbd192f80',
+    price: '£37.59',
+    title: 'Mesaerion: The Best Science Fiction Stories 1800-1849',
+    url: 'catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html'
+  },
+  {
+    _id: '974f88b4c5083767df95afc55dc3499a2df8d3858a97b6d51c83a9bbb1e508b6',
+    price: '£51.33',
+    title: 'Libertarianism for Beginners',
+    url: 'catalogue/libertarianism-for-beginners_982/index.html'
+  },
+  {
+    _id: '93c63e3ed23e1dd55612e10d37614db55296fe056fffc1ead5028fe7667622f6',
+    price: '£45.17',
+    title: "It's Only the Himalayas",
+    url: 'catalogue/its-only-the-himalayas_981/index.html'
+  }
+]
+Type "it" for more
+books_db> 
